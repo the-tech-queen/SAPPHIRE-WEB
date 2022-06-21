@@ -1,0 +1,184 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+ body{
+    overflow-x: hidden;
+ }
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+a:hover{text-decoration: underline;}
+a:active{text-decoration: underline;}
+
+
+
+.bannerpic{
+
+    right:0;
+    top:0px;
+    width: 100%;
+    height: calc(82vh - 50px);
+    background-repeat:no-repeat;
+    left:0;
+    position: absolute;
+    background-size: 100% 60%;
+    }
+
+
+    .bannerpic > img{
+    object-fit: cover;
+    top: 0;
+    left:0;
+    right:0;
+    position: relative;
+    background-size: contain;
+    min-width: 100%;
+    min-height :100% ;
+    width: max-content;
+    height:70%;
+
+  background-position-y:30% ;
+}
+
+@media only screen and(max-height=990px){
+    img{max-height:50%}
+}
+.blur {
+    background-color: rgba(3, 3, 3, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.elegance{
+    height: calc(70vh - 80px);
+    width:50%;
+    top:90%;
+    left: 0;
+}
+ .ele,.styleimg{
+     object-fit: contain;
+     top:74vh;
+     position: absolute;
+     height: calc(80vh - 90px);
+     width:30%;
+    }
+ 
+     .elewords{
+         text-align: left;
+     position: absolute;
+     top: 80%;
+     height: calc(50vh - 80px);
+     float:right;
+     right:10%;
+     width:50vw;
+     height:40vh;
+ }
+
+.navbar{
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: rgb(0, 0, 0);
+    z-index: 1000;
+    opacity: 0.8;
+}
+
+
+.head{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbannerleft{
+    background-color: black;
+    margin-top: 30%;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+.anybodycan{
+    color: whitesmoke;
+    opacity: 0.3;
+    margin-left: 2%;
+    top:20%;
+    font-size: 400%;
+    position: absolute;
+    float:left;
+    size: 50%;
+} 
+ .model{
+    color:whitesmoke;
+    position:absolute ;
+    top:33%;
+    opacity: 0.5;
+    margin-left: 3%;
+    margin-top: 4%;
+    float:left;
+    left:6%;
+    font-size:500%;
+} 
+ .navbannerright{
+     position: relative;
+    color: whitesmoke;
+    font-size: 150%;
+    position: absolute;
+   text-align: right;
+    top:50%;
+    right:0;
+    left:90%;
+    height: 150px;
+
+} 
+.rightlist{
+    position: absolute;
+    right:0;
+    bottom: 0;
+    text-decoration: none;
+    opacity: 0.7;
+}
+.style{
+    margin-top: 10%;
+    position: relative;
+    left:-10px;
+    top:90px;
+    padding-top: 0;
+}
+.styleimg{
+    top:10vh;
+    right:0;
+    
+}
+.stylewords{
+    position: absolute;
+    left:150px;
+    top:18vh;
+    left:5vw;
+    margin-bottom: 10vh;
+}
+.contact{
+    color:white;
+    font-family: MV Boli;
+}
+footer{
+    text-align:center;
+    position: relative;
+    top:90vh;
+    height:40vh;
+    width:100vw;
+    background-color: black;
+}
+footer a{
+    color:rgb(75, 75, 191);
+}
